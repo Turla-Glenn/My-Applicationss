@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationss"
         tools:targetApi="31">
+        <activity
+            android:name=".sql"
+            android:exported="true" />
+        <!-- <uses-library android:name="org.apache.http.legacy" android:required="false"/> -->
         <activity
             android:name=".toast"
             android:exported="true" />

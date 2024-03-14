@@ -3,20 +3,10 @@
   <component name="deploymentTargetDropDown">
     <value>
       <entry key="app">
-        <State>
-          <targetSelectedWithDropDown>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\LENOVO\.android\avd\Pixel_6_API_30.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-03-08T10:55:45.268971900Z" />
-        </State>
+        <State />
+      </entry>
+      <entry key="sql">
+        <State />
       </entry>
     </value>
   </component>
